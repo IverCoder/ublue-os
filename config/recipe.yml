@@ -29,6 +29,7 @@ modules:
       - firefox-langpacks
       - gnome-terminal
       - gnome-terminal-nautilus
+      - power-profiles-daemon
 
   - type: default-flatpaks
     notify: true
