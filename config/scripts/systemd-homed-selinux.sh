@@ -3,7 +3,6 @@
 set -oue pipefail
 
 rpm-ostree install policycoreutils-devel selinux-policy-devel setools-console
-sudo rpm-ostree apply-live
 git clone https://github.com/richiedaze/homed-selinux.git
 cd homed-selinux
 make -f /usr/share/selinux/devel/Makefile homed.pp
