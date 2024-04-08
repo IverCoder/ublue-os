@@ -61,7 +61,8 @@ modules:
         - io.github.flattool.Warehouse # Warehouse
   
   - type: script
-    scripts: systemd-homed-selinux.sh
+    scripts:
+      - systemd-homed-selinux.sh
 
   - type: systemd
     system:
