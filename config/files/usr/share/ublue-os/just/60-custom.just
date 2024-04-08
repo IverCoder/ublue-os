@@ -43,3 +43,7 @@ new-homed-user:
         --password-change-now=true \
         --storage=luks --fs-type=btrfs \
         --luks-extra-mount-options=defcontext=system_u:object_r:user_home_dir_t:s0
+
+# Share audio
+share-audio:
+    as-cmd -b 192.168.0.109
