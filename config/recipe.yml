@@ -62,12 +62,12 @@ modules:
   
   - type: script
     scripts:
-      - systemd-homed-selinux.sh
+      # - systemd-homed-selinux.sh
 
   - type: systemd
     system:
       enabled:
         - tuned.service
-        - systemd-homed
+        # - systemd-homed
 
   - type: signing
