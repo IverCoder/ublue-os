@@ -60,10 +60,8 @@ modules:
         - org.gnome.TextEditor # Text Editor
         - io.github.flattool.Warehouse # Warehouse
   
-  - type: https://flatpak.elementary.io/repo.flatpakrepo
-  
-  - type: script
-    scripts:
+  # - type: script
+    # scripts:
       # - systemd-homed-selinux.sh
 
   - type: systemd
