@@ -11,7 +11,9 @@ modules:
   - type: rpm-ostree
     repos:
       - https://raw.githubusercontent.com/IverCoder/ublue-os/main/repos/shiftkey-packages.repo
+      - https://raw.githubusercontent.com/IverCoder/ublue-os/main/repos/vscode.repo
     install:
+      - code
       - freerdp
       - github-desktop
       - gnome-console
